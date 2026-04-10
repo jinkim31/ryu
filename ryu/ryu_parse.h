@@ -27,10 +27,10 @@ extern "C" {
 // risk.
 
 enum Status {
-  SUCCESS,
-  INPUT_TOO_SHORT,
-  INPUT_TOO_LONG,
-  MALFORMED_INPUT
+  RYU_SUCCESS,
+	RYU_INPUT_TOO_SHORT,
+	RYU_INPUT_TOO_LONG,
+	RYU_MALFORMED_INPUT
 };
 
 enum Status s2d_n(const char * buffer, const int len, double * result);
